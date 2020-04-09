@@ -269,7 +269,7 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-   -scope:
+  - scope:
       path: ""
       type: posts
     values:
@@ -281,9 +281,9 @@ defaults:
       related: true
 
    # _pages
-   -scope:
-     path: ""
-     type: pages
+   - scope:
+      path: ""
+      type: pages
      values:
        layout: single
        author_profile: true
