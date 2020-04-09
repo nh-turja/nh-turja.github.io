@@ -20,7 +20,7 @@ title                    : "Nazmul Haque Turja"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nazmul Haque Turja"
-description              : "Internet of Things (IoT) and Data Science Portfolio"
+description              : "IoT and Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,25 +95,25 @@ analytics:
 author:
   name             : "Nazmul Haque Turja"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Internet of Things(IoT) and Data Science Portfolio"
+  bio              : "IoT and Data Science Portfolio"
   location         : "Dhaka, Bangladesh"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:nht570@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/nh_turja"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/nht570"
     - label: "GitHub"
-      icon: "nh-turja"
-      # url: "https://github.com/"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nh-turja"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -123,13 +123,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/nh_turja"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/nht570"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/nh-turja"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
