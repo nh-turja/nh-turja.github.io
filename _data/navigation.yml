@@ -2,8 +2,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "IoT and Data Science"
-    url: /internet-of-things-data-science/
+  - title: "Internet of Things"
+    url: /internet-of-things/
+  - title: "Data Science"
+    url: /data-science/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

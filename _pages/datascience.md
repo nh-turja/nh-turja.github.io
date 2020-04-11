@@ -1,10 +1,10 @@
 ---
 layout: archive
-permalink: /internet-of-things/
-title: "Internet of Things Posts by Team Hawkbit"
+permalink: /data-science/
+title: "Data Science Posts by Team Hawkbit"
 author_profile: true
 header:
-    images: "/images/fort point.jpg"
+    images: "/images/data science.jpeg"
 ---
 
 {% include group-by-array collection=site.posts field="tags" %}
