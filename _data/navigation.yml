@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "Internet of Things"
     url: /internet-of-things/
+  - title: "Data Science"
+    url: /data-science/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
