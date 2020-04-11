@@ -1,5 +1,4 @@
 ---
-layout: archive
 permalink: /internet-of-things/
 title: "Internet of Things Posts by Team Hawkbit"
 author_profile: true
