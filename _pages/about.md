@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-   images: /images/about-me.jpg
+   images: "/images/about-me.jpg"
 ---
 
 I pride myself in being a resourceful Engineer and visionary, experienced in working at electronics and semiconductor manufacturing industry. I love to work with the newest technologies. Engineering and automation are my passion!
