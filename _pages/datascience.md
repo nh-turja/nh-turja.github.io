@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /data-science/
-title: "Data Science posts by tags"
+title: "Data science posts by tags"
 author_profile: true
 header:
     images: "/images/data science.jpeg"
