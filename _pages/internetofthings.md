@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /internet-of-things/
 title: "Internet of Things Posts by Team Hawkbit"
 author_profile: true
@@ -6,7 +7,6 @@ header:
     images: "/images/fort point.jpg"
 ---
 
-{% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
