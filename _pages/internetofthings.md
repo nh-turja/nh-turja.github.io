@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /internet-of-things/
-title: "Internet of Things Posts by Team Hawkbit"
+permalink: /internet-of-things-data-science/
+title: "IoT and Data Science Posts by Team Hawkbit"
 author_profile: true
 header:
     images: "/images/fort point.jpg"
