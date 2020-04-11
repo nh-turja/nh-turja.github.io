@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /internet-of-things/
-title: "Internet of Things Posts by Team Hawkbit"
+title: "Internet of things posts by tags"
 author_profile: true
 header:
     images: "/images/fort point.jpg"
