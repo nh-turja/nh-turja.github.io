@@ -76,7 +76,7 @@ Append to `content/projects.json`. Available categories are `ongoing`, `research
 ```
 
 Blank fields are omitted from the page. For ongoing work, `result` is presented
-as **Current status**. RTL Medic is deliberately brief at the owner's request.
+as **Current status**.
 Framework repositories are labeled as frameworks, not as paper-specific code.
 
 ### Add an update
@@ -86,7 +86,7 @@ Framework repositories are labeled as frameworks, not as paper-specific code.
   "date": "2026-10-01",
   "display_date": "Oct 2026",
   "text": "A short update. Mark future appointments as upcoming until they begin.",
-  "link": {"label": "More details", "url": "projects.html#rtl-medic"}
+  "link": {"label": "More details", "url": "projects.html#project-id"}
 }
 ```
 

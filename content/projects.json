@@ -1,7 +1,7 @@
 [
   {
-    "id": "rtl-medic",
-    "title": "RTL Medic",
+    "id": "ai-assisted-hardware-verification",
+    "title": "AI-assisted hardware design and verification",
     "category": "ongoing",
     "status": "Ongoing",
     "summary": "Research on hardware design and verification using LLMs and AI agents.",

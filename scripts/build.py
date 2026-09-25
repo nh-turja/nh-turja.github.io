@@ -90,7 +90,7 @@ home = f'''<section class="hero" aria-labelledby="intro-title"><div>
     </div><aside class="hero-aside" aria-label="Affiliation">
     <img class="portrait" src="assets/portrait.jpg" width="320" height="433" alt="Portrait of Nazmul Haque Turja" fetchpriority="high">
     <div class="affiliation"><strong>{e(P['institution'])}</strong><span class="muted">Electrical &amp; Computer Engineering</span></div></aside></section>
-    <aside class="now" aria-label="Current work"><p class="eyebrow">Currently</p><p>{e(P['now'])}</p>{anchor('RTL Medic →','projects.html#rtl-medic')}</aside>
+    <aside class="now" aria-label="Current work"><p class="eyebrow">Currently</p><p>{e(P['now'])}</p></aside>
     <section class="section" aria-label="Research areas">{section_heading('Research areas','Research overview','research.html')}<div class="research-grid">{research_cards}</div></section>
     <section class="section" aria-label="Selected publications">{section_heading('Selected publications','All publications','publications.html')}<div>{''.join(publication(p) for p in PUBS if p.get('featured'))}</div></section>
     <section class="section" aria-labelledby="updates-title"><h2 id="updates-title">Recent updates</h2><ul class="updates">{updates}</ul></section>'''
@@ -99,7 +99,7 @@ page('index.html',P['name'],f"PhD student at the {P['institution']}. {P['bio']}"
 research = heading('Research','Hardware security & verification.','My PhD at the University of Delaware focuses on hardware security, informed by experience in hardware verification and computer architecture.')
 for i,r in enumerate(P['research'],1):
     research += f'<section class="research-detail" id="{e(r["id"])}"><span class="index" aria-hidden="true">0{i}</span><h2>{e(r["title"])}</h2><div><p>{e(r["body"])}</p>{links(r["links"])}</div></section>'
-research += '<section class="page-section"><h2>Ongoing work</h2>'+project(next(p for p in PROJECTS if p['id']=='rtl-medic'))+'</section>'
+research += '<section class="page-section"><h2>Ongoing work</h2>'+project(next(p for p in PROJECTS if p['id']=='ai-assisted-hardware-verification'))+'</section>'
 page('research.html','Research','Hardware security research at the University of Delaware, with ongoing work in AI-assisted hardware design and verification.',research)
 
 pubs = heading('Publications','Papers & reports.','Research on GPU performance prediction, CPU bottleneck analysis, and secure connected systems.',links([P['socials'][1],{'label':'Download citations (.bib)','url':'publications.bib'}]))
@@ -113,7 +113,7 @@ projects = heading('Projects','From models to working systems.','Selected resear
 projects += '<nav class="section-nav" aria-label="Project categories">'+''.join(anchor(label,'#'+key) for key,label in categories)+'</nav>'
 for key,label in categories:
     projects += f'<section class="page-section" id="{key}"><h2>{label}</h2><div class="project-grid">'+''.join(project(p) for p in PROJECTS if p['category']==key)+'</div></section>'
-page('projects.html','Projects','Research and engineering projects, including ongoing RTL Medic, GPU performance modeling, and IoT systems.',projects)
+page('projects.html','Projects','Research and engineering projects, including AI-assisted hardware design and verification, GPU performance modeling, and IoT systems.',projects)
 
 cvsections=[('education','Education'),('experience','Experience'),('technical_skills','Technical skills'),('selected_coursework','Selected coursework'),('awards','Awards'),('publications','Publications'),('projects','Selected projects')]
 cv_download = '<div class="link-row">' + anchor('Download CV · September 2026 (PDF)', P['cv'], ' class="button"') + '</div>'
@@ -127,7 +127,7 @@ for key,label in cvsections:
             cv += '<div class="cv-entry"><p>' + e(', '.join(pub['authors'])) + '. ' + anchor(pub['title'], pub['links'][0]['url']) + '. ' + e(pub['venue']) + ', ' + str(pub['year']) + '.</p></div>'
     elif key == 'projects':
         for proj in PROJECTS:
-            if proj['id'] in ('rtl-medic','asmd','cache','mips','sap','shift-register','wearable'):
+            if proj['id'] in ('ai-assisted-hardware-verification','asmd','cache','mips','sap','shift-register','wearable'):
                 cv += '<div class="cv-entry"><h3>' + e(proj['title']) + '</h3><p>' + e(proj['summary']) + ' ' + e(proj['result']) + '</p></div>'
     for item in CV.get(key, []):
         cv += '<div class="cv-entry">'

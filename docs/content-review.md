@@ -6,7 +6,7 @@
 - Location: Newark, Delaware, USA.
 - Graduate Research Assistant appointment begins **October 1, 2026**. This is
   labeled **upcoming** as of the review date, not an already-held role.
-- RTL Medic is ongoing research on hardware design and verification using LLMs
+- AI-assisted hardware design and verification is ongoing research using LLMs
   and AI agents. The owner requested a brief description, so methods, personal
   implementation claims, and results are deliberately not invented.
 - The owner confirmed the University of Delaware PhD began in **August 2026**,
@@ -34,7 +34,7 @@
 
 ## Claims and older content
 
-- No speedups, benchmark scores, clinical benefits, or completed RTL Medic
+- No speedups, benchmark scores, clinical benefits, or completed project
   outcomes were invented. Project outcomes stay within the CV and the existing
   portfolio. The BB-ML benchmark count and venue are supported by arXiv v3.
 - Historical Intel and teaching positions use the CV's date ranges. Intel ends

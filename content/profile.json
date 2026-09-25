@@ -7,7 +7,7 @@
   "location": "Newark, Delaware, USA",
   "intro": "Hardware security, from design to verification.",
   "bio": "My PhD research in Electrical and Computer Engineering focuses on hardware security. I bring experience in GPU logic design and pre-silicon verification at Intel, alongside prior research in computer architecture and performance modeling.",
-  "now": "Developing my PhD research in hardware security and working on RTL Medic: hardware design and verification using LLMs and AI agents. I will join the ECE Department at the University of Delaware as a Graduate Research Assistant on October 1, 2026.",
+  "now": "Developing my PhD research in hardware security and exploring hardware design and verification using LLMs and AI agents. I will join the ECE Department at the University of Delaware as a Graduate Research Assistant on October 1, 2026.",
   "cv": "pdf/Nazmul_Turja_CV_2026.pdf",
   "updated": "September 2026",
   "socials": [
@@ -44,12 +44,12 @@
     {
       "id": "architecture",
       "title": "Hardware design & verification",
-      "summary": "Exploring LLMs and AI agents for hardware design and verification through RTL Medic.",
-      "body": "RTL Medic is our ongoing research on hardware design and verification using LLMs and AI agents. My prior work at Intel covered pre-silicon verification of GPUs, including Xe-Core ray tracing and texture sampling features, UVM-based validation, coverage closure, and regression debugging.",
+      "summary": "Exploring LLMs and AI agents for hardware design and verification.",
+      "body": "My ongoing research explores hardware design and verification using LLMs and AI agents. My prior work at Intel covered pre-silicon verification of GPUs, including Xe-Core ray tracing and texture sampling features, UVM-based validation, coverage closure, and regression debugging.",
       "links": [
         {
-          "label": "RTL Medic · ongoing",
-          "url": "projects.html#rtl-medic"
+          "label": "Ongoing research",
+          "url": "projects.html#ai-assisted-hardware-verification"
         },
         {
           "label": "Industry experience",

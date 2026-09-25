@@ -7,10 +7,10 @@
   {
     "date": "2026-09",
     "display_date": "Sep 2026",
-    "text": "Working on RTL Medic: hardware design and verification using LLMs and AI agents.",
+    "text": "Working on hardware design and verification using LLMs and AI agents.",
     "link": {
       "label": "Project status",
-      "url": "projects.html#rtl-medic"
+      "url": "projects.html#ai-assisted-hardware-verification"
     }
   },
   {
