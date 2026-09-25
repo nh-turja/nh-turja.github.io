@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-10-01",
+    "display_date": "Oct 2026",
+    "text": "Upcoming: joining the ECE Department at the University of Delaware as a Graduate Research Assistant on October 1, 2026."
+  },
+  {
+    "date": "2026-09",
+    "display_date": "Sep 2026",
+    "text": "Working on RTL Medic: hardware design and verification using LLMs and AI agents.",
+    "link": {
+      "label": "Project status",
+      "url": "projects.html#rtl-medic"
+    }
+  },
+  {
+    "date": "2023-07",
+    "display_date": "Jul 2023",
+    "text": "Joined Intel as a GPU Logic Design Engineer in Folsom, California."
+  },
+  {
+    "date": "2026-08",
+    "display_date": "Aug 2026",
+    "text": "Started my PhD in Electrical and Computer Engineering at the University of Delaware, focusing on hardware security."
+  }
+]

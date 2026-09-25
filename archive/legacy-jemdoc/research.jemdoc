@@ -1,0 +1,56 @@
+# jemdoc: menu{MENU}{research.html}, nofooter
+= Research and Projects
+
+== CPU Performance and Bottleneck Analysis
+My master's technical report, /Utilizing CPI Breakdown for Bottleneck Analysis of Power9 Processor Performance/, introduces an LDMS-Sampler framework for cycles-per-instruction (CPI) breakdown analysis and identifying performance bottlenecks in IBM Power9 processors. My work with Sandia National Laboratories included LDMS sampling toolkits for HPC data collection.
+
+\[[https://tinyurl.com/cpibreakdown Technical report]] \[[https://github.com/ovis-hpc/ovis LDMS repository]]
+
+== GPU Performance Prediction with Machine Learning
+At New Mexico State University, I used NVBit-supported PPT-GPU to predict basic block counts for PolyBench, Rodinia, Pannotia, and LULESH workloads using machine learning. I also collaborated with Los Alamos National Laboratory on reuse distance and memory tracing toolkits for PPT-GPU.
+
+Related publication: /BB-ML: Basic Block Performance Prediction using Machine Learning Techniques/ (2023). \[[publications.html Publications]] \[[https://github.com/lanl/PPT PPT repository]]
+
+== GPU Design Verification
+At Intel (July 2023 – September 2026), I worked on pre-silicon verification for discrete, integrated, and HPC GPUs. My work covered Intel Xe-Core ray tracing and texture sampling features, UVM-based validation, coverage closure, and functional debugging in simulation and emulation. During my graduate internship (May – December 2022), I worked on Xe-Core Sampler power analysis, Meteor Lake regressions, and UVM testbenches.
+
+== Bachelor's Thesis: Secure IoT Automation
+/A Secured Offline Online Approach for Internet of Things (IoT) Using Real-time Database/ presents IoT applications and a cyber-secured MQTT-based offline system with a shared dashboard for monitoring and control.
+
+The related project with BUET and ACI Logistics Limited combined desktop software and a sensor network to monitor and control electrical appliances in a supershop. Our team developed and demonstrated the system, and I presented the resulting paper at WiSPNET in March 2019.
+
+\[[https://tinyurl.com/y2n2qenu Thesis]] \[[pdf/hasan2019.pdf Paper]] \[[https://github.com/nh-turja/internet-of-things GitHub]]
+
+~~~
+{}{img_left}{photos/mqtt/mqtt.jpg}{MQTT offline automation system}{1000}{}
+~~~
+
+== Selected Engineering Projects
+- *Design Validation using ASMD Diagram:* Debugged and verified hardware using an Algorithmic State Machine with Data Path diagram. \[[https://github.com/nh-turja/asmd_diagram_hw_sw_co_design_project GitHub]]
+- *Cache Memory Simulator:* Developed C\+\+ programs to simulate direct-mapped and set-associative caches. \[[https://github.com/nh-turja/cache-simulator GitHub]]
+- *MIPS:* Created a MIPS implementation using an Abstract Syntax Tree for the Compiler Transition course. \[[https://tinyurl.com/39dyv6zv GitHub]]
+- *8-bit Simple As Possible (SAP) Computer:* Designed an 8-bit microcomputer with 64 KB of RAM and simulated it in Proteus. \[[https://github.com/nh-turja/simple-as-possible-computer GitHub]]
+- *4-bit Shift Register:* Designed a general-purpose register supporting left shift, right shift, and parallel loading.
+- *Wearable Device for Alzheimer's Patients:* Built a wearable device to help patients find their way inside a house. \[[https://tinyurl.com/y4mza8h9 GitHub]]
+
+== Earlier Research and IoT Projects
+
+=== Akita and Multi-GPU Simulation
+My earlier work explored a multi-GPU simulation framework and benchmark development for evaluating next-generation multi-GPU system designs.
+
+=== Railway Fishplate and Track Monitoring
+In 2019, I worked with Professor Dr. Md Farhad Hossain at BUET on a proposal for an IoT railway monitoring system. The project received a 2020 grant from the University Grants Commission of Bangladesh. The proposed system aimed to detect and locate displaced fishplates and rail tracks, alert a central monitoring system, and display affected locations on a digital map.
+
+=== Smart Waste Management
+Our Team Hawkbit built an IoT waste management system for the 2018 CISCO Bangladesh hackathon, earning an honorable mention. The system sent bin status to a cloud server and used a SIM808 GSM module to send collection alerts.
+
+~~~
+{}{img_left}{photos/wastie/wastie.jpg}{Smart waste management project}{1000}{}
+~~~
+
+=== Smart Home Automation
+Team Hawkbit won the Battle of Hardware (IoT) competition at BUET CSE Festival 2018. We built an Android app to monitor and control lights and fans, including brightness and fan speed, using MIT App Inventor and Google Firebase.
+
+~~~
+{}{img_left}{photos/boh/boh.jpg}{Battle of Hardware winning home automation project}{1000}{}
+~~~

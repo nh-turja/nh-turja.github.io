@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cpi-2023",
+    "year": 2023,
+    "type": "Master’s project",
+    "title": "Utilizing CPI Breakdown for Bottleneck Analysis of Power9 Processor Performance",
+    "authors": [
+      "Nazmul Haque Turja"
+    ],
+    "venue": "Master’s project report, New Mexico State University",
+    "summary": "An LDMS-Sampler framework for analyzing CPI breakdowns and locating performance bottlenecks in IBM Power9.",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "https://drive.google.com/file/d/1JHx_pnAfwS_Z2fhqH8l5Ph6NiEAG8fpE/view"
+      }
+    ],
+    "featured": true,
+    "institution": "New Mexico State University"
+  },
+  {
+    "id": "bbml-2023",
+    "year": 2023,
+    "type": "Conference paper",
+    "title": "BB-ML: Basic Block Performance Prediction using Machine Learning Techniques",
+    "authors": [
+      "Hamdy Abdelkhalik",
+      "Shamminuj Aktar",
+      "Yehia Arafa",
+      "Atanu Barai",
+      "Gopinath Chennupati",
+      "Nandakishore Santhi",
+      "Nishant Panda",
+      "Nirmal Prajapati",
+      "Nazmul Haque Turja",
+      "Stephan Eidenbenz",
+      "Abdel-Hameed Badawy"
+    ],
+    "venue": "29th IEEE International Conference on Parallel and Distributed Systems (ICPADS)",
+    "summary": "Predicting GPU basic block execution counts for larger workloads from smaller input configurations.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2202.07798v3"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2202.07798v3"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "mqtt-2019",
+    "year": 2019,
+    "type": "Conference paper",
+    "title": "A Cyber-Secured MQTT based Offline Automation System",
+    "authors": [
+      "Nahian Ibn Hasan",
+      "Md. Tasnimul Hasan",
+      "Nazmul Haque Turja",
+      "Rishad Raiyan",
+      "Shuvagata Saha",
+      "Md Farhad Hossain"
+    ],
+    "venue": "International Conference on Wireless Communications Signal Processing and Networking (WiSPNET)",
+    "summary": "An offline MQTT system for monitoring and controlling appliances through a shared dashboard.",
+    "links": [
+      {
+        "label": "Paper (PDF)",
+        "url": "pdf/hasan2019.pdf"
+      },
+      {
+        "label": "Code collection",
+        "url": "https://github.com/nh-turja/internet-of-things"
+      }
+    ],
+    "featured": false
+  }
+]

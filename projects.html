@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research and engineering projects, including ongoing RTL Medic, GPU performance modeling, and IoT systems.">
+  <meta name="theme-color" content="#f8f8f4">
+  <title>Projects · Nazmul Haque Turja</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html" aria-label="Nazmul Haque Turja — home"><span class="monogram" aria-hidden="true">nh.</span><span>Nazmul H. Turja</span></a>
+    <nav aria-label="Main navigation"><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="projects.html" aria-current="page">Projects</a><a href="cv.html">CV</a><a href="contact.html">Contact</a></nav>
+  </header>
+  <main id="main" class="wrap" tabindex="-1"><header class="page-head"><p class="eyebrow">Projects</p><h1>From models to working systems.</h1><p class="lead">Selected research, engineering, and collaborative projects. Each entry describes my contribution and the outcome of the work.</p></header><nav class="section-nav" aria-label="Project categories"><a href="#ongoing">Ongoing work</a><a href="#research">Research projects</a><a href="#engineering">Computer engineering</a><a href="#iot">Connected systems</a></nav><section class="page-section" id="ongoing"><h2>Ongoing work</h2><div class="project-grid"><article class="project ongoing" id="rtl-medic" aria-labelledby="rtl-medic-title">
+      <div class="status"><span class="status-dot" aria-hidden="true"></span>Ongoing</div>
+      <h3 id="rtl-medic-title">RTL Medic</h3><p class="summary">Research on hardware design and verification using LLMs and AI agents.</p>
+      <dl><div><dt>Current status</dt><dd>Ongoing collaborative research.</dd></div></dl></article></div></section><section class="page-section" id="research"><h2>Research projects</h2><div class="project-grid"><article class="project" id="power9" aria-labelledby="power9-title">
+      <div class="status">Master’s project</div>
+      <h3 id="power9-title">Understanding Power9 performance</h3><p class="summary">CPI breakdown analysis for a clearer view of CPU bottlenecks.</p>
+      <dl><div><dt>Problem</dt><dd>Identify where execution time is spent on IBM Power9.</dd></div><div><dt>My contribution</dt><dd>Focused my master’s project on an LDMS-Sampler analysis framework.</dd></div><div><dt>Methods</dt><dd>CPI breakdown, LDMS sampling, IBM Power9.</dd></div><div><dt>Outcome</dt><dd>Completed a master’s project at NMSU in May 2023 describing the analysis framework.</dd></div></dl><div class="link-row"><a href="https://drive.google.com/file/d/1JHx_pnAfwS_Z2fhqH8l5Ph6NiEAG8fpE/view">Project report</a><a href="https://github.com/ovis-hpc/ldms">LDMS framework</a></div></article><article class="project" id="bb-ml" aria-labelledby="bb-ml-title">
+      <div class="status">Published</div>
+      <h3 id="bb-ml-title">BB-ML: predicting GPU execution</h3><p class="summary">Machine learning for basic block execution counts.</p>
+      <dl><div><dt>Problem</dt><dd>Estimate execution counts for large inputs without profiling every configuration.</dd></div><div><dt>My contribution</dt><dd>Contributed to basic block count prediction using NVBit-supported PPT-GPU.</dd></div><div><dt>Methods</dt><dd>GPU instrumentation, machine learning, benchmark workloads.</dd></div><div><dt>Outcome</dt><dd>Co-authored BB-ML, accepted at ICPADS 2023. The paper evaluates prediction across 16 GPU benchmarks.</dd></div></dl><div class="link-row"><a href="https://arxiv.org/abs/2202.07798v3">Paper</a><a href="https://github.com/lanl/PPT">PPT framework</a></div></article><article class="project" id="ppt-gpu" aria-labelledby="ppt-gpu-title">
+      <div class="status">Research contribution</div>
+      <h3 id="ppt-gpu-title">GPU tracing for PPT-GPU</h3><p class="summary">Tracing tools for GPU performance modeling.</p>
+      <dl><div><dt>Problem</dt><dd>Collect execution and memory behavior to support GPU performance prediction.</dd></div><div><dt>My contribution</dt><dd>Collaborated with Los Alamos National Laboratory on reuse-distance and memory-tracing toolkits.</dd></div><div><dt>Methods</dt><dd>NVBit, GPU traces, reuse-distance analysis.</dd></div><div><dt>Outcome</dt><dd>Contributed tool development for PPT-GPU.</dd></div></dl><div class="link-row"><a href="https://github.com/lanl/PPT">PPT framework</a></div></article></div></section><section class="page-section" id="engineering"><h2>Computer engineering</h2><div class="project-grid"><article class="project" id="asmd" aria-labelledby="asmd-title">
+      <div class="status">Course project</div>
+      <h3 id="asmd-title">Hardware validation with ASMD</h3><p class="summary">State-machine reasoning for hardware verification.</p>
+      <dl><div><dt>Problem</dt><dd>Check hardware behavior against its intended control and data paths.</dd></div><div><dt>My contribution</dt><dd>Debugged and verified hardware using an Algorithmic State Machine with Data Path diagram.</dd></div><div><dt>Methods</dt><dd>ASMD diagrams, hardware/software co-design.</dd></div><div><dt>Outcome</dt><dd>Completed a hardware design-validation project.</dd></div></dl><div class="link-row"><a href="https://github.com/nh-turja/asmd_diagram_hw_sw_co_design_project">Code</a></div></article><article class="project" id="cache" aria-labelledby="cache-title">
+      <div class="status">Course project</div>
+      <h3 id="cache-title">Cache memory simulator</h3><p class="summary">A C++ simulator for exploring cache organizations.</p>
+      <dl><div><dt>Problem</dt><dd>Model memory accesses across different cache configurations.</dd></div><div><dt>My contribution</dt><dd>Implemented programs for direct-mapped and set-associative caches.</dd></div><div><dt>Methods</dt><dd>C++, cache simulation.</dd></div><div><dt>Outcome</dt><dd>Built a configurable cache simulation implementation.</dd></div></dl><div class="link-row"><a href="https://github.com/nh-turja/cache-simulator">Code</a></div></article><article class="project" id="mips" aria-labelledby="mips-title">
+      <div class="status">Course project</div>
+      <h3 id="mips-title">MIPS compiler project</h3><p class="summary">Exploring compilation with abstract syntax trees.</p>
+      <dl><div><dt>Problem</dt><dd>Translate program structure into a MIPS implementation.</dd></div><div><dt>My contribution</dt><dd>Created a MIPS implementation using an abstract syntax tree for Compiler Transition.</dd></div><div><dt>Methods</dt><dd>Abstract syntax trees, MIPS.</dd></div><div><dt>Outcome</dt><dd>Completed the course implementation.</dd></div></dl><div class="link-row"><a href="https://github.com/nh-turja/CS-466-NMSU-Compiler-Transition">Code</a></div></article><article class="project" id="sap" aria-labelledby="sap-title">
+      <div class="status">Course project</div>
+      <h3 id="sap-title">An 8-bit computer</h3><p class="summary">A Simple As Possible computer simulated in Proteus.</p>
+      <dl><div><dt>Problem</dt><dd>Explore the organization of a small, complete computer.</dd></div><div><dt>My contribution</dt><dd>Designed an 8-bit microcomputer with 64 KB of main-memory support.</dd></div><div><dt>Methods</dt><dd>Digital logic, Proteus simulation.</dd></div><div><dt>Outcome</dt><dd>Designed and simulated the computer.</dd></div></dl><div class="link-row"><a href="https://github.com/nh-turja/simple-as-possible-computer">Code</a></div></article><article class="project" id="shift-register" aria-labelledby="shift-register-title">
+      <div class="status">Course project</div>
+      <h3 id="shift-register-title">General-purpose shift register</h3><p class="summary">A small digital design with multiple data-movement modes.</p>
+      <dl><div><dt>Problem</dt><dd>Support left shift, right shift, and parallel loading.</dd></div><div><dt>My contribution</dt><dd>Designed a general-purpose 4-bit shift register.</dd></div><div><dt>Methods</dt><dd>Digital logic, register design.</dd></div><div><dt>Outcome</dt><dd>Produced the register design with the three operating modes.</dd></div></dl></article></div></section><section class="page-section" id="iot"><h2>Connected systems</h2><div class="project-grid"><article class="project" id="mqtt" aria-labelledby="mqtt-title">
+      <div class="status">Published</div>
+      <h3 id="mqtt-title">Secure offline IoT automation</h3><p class="summary">Local monitoring and control when internet connectivity is unavailable.</p>
+      <dl><div><dt>Problem</dt><dd>Keep appliance monitoring and control available during internet outages.</dd></div><div><dt>My contribution</dt><dd>Worked with Team Hawkbit on desktop software and a sensor network; presented the paper at WiSPNET 2019.</dd></div><div><dt>Methods</dt><dd>MQTT, Python, sensor networks, a shared control dashboard.</dd></div><div><dt>Outcome</dt><dd>Built and demonstrated a supershop automation system with BUET and ACI Logistics; published the resulting paper.</dd></div></dl><div class="link-row"><a href="pdf/hasan2019.pdf">Paper (PDF)</a><a href="https://github.com/nh-turja/internet-of-things">Code collection</a></div></article><article class="project" id="smart-home" aria-labelledby="smart-home-title">
+      <div class="status">Competition project</div>
+      <h3 id="smart-home-title">Connected home automation</h3><p class="summary">An app to control lights, fans, and their operating levels.</p>
+      <dl><div><dt>Problem</dt><dd>Remotely control light brightness and fan speed.</dd></div><div><dt>My contribution</dt><dd>Worked with Team Hawkbit on the Android interface and connected hardware.</dd></div><div><dt>Methods</dt><dd>MIT App Inventor, Google Firebase, IoT.</dd></div><div><dt>Outcome</dt><dd>Won Battle of Hardware (IoT) at BUET CSE Festival 2018.</dd></div></dl><div class="link-row"><a href="https://github.com/nh-turja/internet-of-things">Code collection</a></div></article><article class="project" id="waste" aria-labelledby="waste-title">
+      <div class="status">Hackathon project</div>
+      <h3 id="waste-title">Smart waste monitoring</h3><p class="summary">Connected bins that notify collectors when service is needed.</p>
+      <dl><div><dt>Problem</dt><dd>Communicate bin status and collection needs.</dd></div><div><dt>My contribution</dt><dd>Worked with Team Hawkbit on cloud-connected bin monitoring and SMS alerts.</dd></div><div><dt>Methods</dt><dd>IoT sensors, cloud data, SIM808 GSM messaging.</dd></div><div><dt>Outcome</dt><dd>Built the hackathon prototype; received an honorable mention at CISCO Bangladesh’s 2018 IoT hackathon.</dd></div></dl><div class="link-row"><a href="https://github.com/nh-turja/internet-of-things">Code collection</a></div></article><article class="project" id="wearable" aria-labelledby="wearable-title">
+      <div class="status">Prototype</div>
+      <h3 id="wearable-title">Indoor wayfinding wearable</h3><p class="summary">A wearable project for people with Alzheimer’s disease.</p>
+      <dl><div><dt>Problem</dt><dd>Support finding a path inside a house.</dd></div><div><dt>My contribution</dt><dd>Built a wearable device for indoor wayfinding.</dd></div><div><dt>Methods</dt><dd>Embedded wearable system.</dd></div><div><dt>Outcome</dt><dd>Built a wearable prototype.</dd></div></dl><div class="link-row"><a href="https://github.com/nh-turja/Arduino_RaspberryPi_projects">Code collection</a></div></article></div></section></main>
+  <footer class="site-footer wrap">
+    <div><a class="footer-name" href="index.html">Nazmul Haque Turja</a><p>Hardware security · Design · Verification</p></div>
+    <div class="footer-right"><div class="link-row"><a href="mailto:nh.turja@gmail.com">Email</a><a href="https://scholar.google.com/citations?user=E74ZlZAAAAAJ">Google Scholar</a><a href="https://github.com/nh-turja">GitHub</a><a href="https://www.linkedin.com/in/nh-turja/">LinkedIn</a></div><p>Updated September 2026 · <a href="teaching.html">Teaching &amp; resources</a></p></div>
+  </footer>
+</body>
+</html>

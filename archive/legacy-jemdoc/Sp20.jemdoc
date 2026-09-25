@@ -1,0 +1,17 @@
+# jemdoc: menu{MENU}{Sp20.html}, nofooter
+= Teaching Resources
+
+== Electrodynamics Class Lectures
+- [electrodynamics/1_Electrodynamics_Basics.pdf Lecture 1: Electromagnetics Basics]
+- [electrodynamics/2_Maxwell_Eqns.pdf Lecture 2: Maxwell's Equations]
+- [electrodynamics/3_Continuity_and_Poynting_Theory.pdf Lecture 3: Continuity and Poynting Theorem]
+- [electrodynamics/4_Boundary_Conditions.pdf Lecture 4: Boundary Conditions]
+- [electrodynamics/5_Wave_Equations.pdf Lecture 5: Wave Equations]
+- [electrodynamics/6_Plane_Waves.pdf Lecture 6: Plane Waves]
+- [electrodynamics/7_Polarization.pdf Lecture 7: Polarization]
+- [electrodynamics/8_Propagation_Dispersion.pdf Lecture 8: Propagation and Dispersion]
+- [electrodynamics/9_Reflection_and_Refraction.pdf Lecture 9: Reflection and Refraction]
+- [electrodynamics/10_Anennas.pdf Lecture 10: Antennas]
+
+== Useful Links
+- [https://www.youtube.com/playlist?list=PLB1fSi1mbw6IcxVIePXMl_wFn89gsWM45 Akita, Multi-GPU Simulator Tutorials]

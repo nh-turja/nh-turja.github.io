@@ -1,0 +1,69 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+= Nazmul Haque Turja
+
+~~~
+{}{img_left}{photos/TJ.jpg}{Nazmul Haque Turja}{145}{196}
+[https://nh-turja.github.io/ Nazmul Haque Turja] \n
+PhD Student, Electrical and Computer Engineering \n
+[https://www.nmsu.edu/ New Mexico State University] \n
+Folsom, CA, USA \n
+
+\[[https://github.com/nh-turja GitHub]] \[[https://www.linkedin.com/in/nh-turja/ LinkedIn]] \[[https://www.researchgate.net/profile/Nazmul_Turja ResearchGate]] \[[https://scholar.google.com/citations?user=E74ZlZAAAAAJ Google Scholar]] \n
+\[[pdf/Resume_Nazmul_September_2026.pdf Resume — September 2026]]
+~~~
+
+My work spans GPU design verification, computer architecture, performance analysis, and Internet of Things (IoT) systems. I bring experience in Intel GPU pre-silicon validation, machine learning for GPU performance prediction, and HPC performance monitoring.
+
+== Education
+- *New Mexico State University*, /Las Cruces, NM/ \n
+PhD in Electrical and Computer Engineering (August 2026 – Present)
+- *New Mexico State University*, /Las Cruces, NM/ \n
+Master of Science in Electrical Engineering (August 2021 – May 2023) \n
+Technical report: [https://tinyurl.com/cpibreakdown Utilizing CPI Breakdown for Bottleneck Analysis of Power9 Processor Performance]
+- *Bangladesh University of Engineering and Technology (BUET)*, /Dhaka, Bangladesh/ \n
+Bachelor of Science in Electrical and Electronic Engineering (July 2014 – April 2019) \n
+Major: Communication Engineering \n
+Thesis: [https://tinyurl.com/y2n2qenu A Secured Offline Online Approach for Internet of Things (IoT) Using Real-time Database]
+
+== Experience
+- *Intel Corporation*, /Folsom, California/ \n
+*GPU Logic Design Engineer* (July 2023 – September 2026)
+-- Conducted functional pre-silicon verification for discrete, integrated, and HPC GPUs, focusing on 3D render and compute pipelines.
+-- Owned end-to-end validation of Intel Xe-Core ray tracing and texture sampling features, including test planning, test development, and coverage closure.
+-- Used UVM methodologies and debugged regression failures in simulation and emulation, collaborating with design and architecture teams.
+- *New Mexico State University, Department of ET and SE*, /Las Cruces, NM/ \n
+*Graduate Assistant* (January 2023 – May 2023)
+-- Instructed Communication Systems I (ET 314) theory and lab sessions and mentored students on assignments and projects.
+- *Intel Corporation*, /Folsom, California/ \n
+*Graduate Technical Intern* (May 2022 – December 2022)
+-- Addressed power flow analysis (ptpx) issues for low-power Intel Xe-Core Sampler designs.
+-- Managed regressions for the Meteor Lake Sampler CLT out-of-order feature and identified two silicon hangs.
+-- Developed UVM testbenches and worked with gnr, elab, and runsim tools.
+- *New Mexico State University, Department of ECE*, /Las Cruces, NM/ \n
+*Graduate Research and Teaching Assistant* (August 2021 – May 2022)
+-- Applied machine learning to basic block count prediction with NVBit-supported PPT-GPU for PolyBench, Rodinia, Pannotia, and LULESH workloads.
+-- Collaborated with Los Alamos National Laboratory on reuse distance and memory tracing toolkits for PPT-GPU, and with Sandia National Laboratories on LDMS sampling for IBM Power9.
+-- Taught electronics, digital circuit design, and VHDL to more than 50 students.
+- *BRAC University, Department of CSE*, /Dhaka, Bangladesh/ \n
+*Adjunct Faculty* (February 2021 – September 2021)
+-- Taught VLSI Design (CSE 460) and Digital Electronics and Pulse Techniques (CSE 350), including labs with Proteus, Quartus II, Microwind, and ModelSim.
+-- Worked on IoT applications for healthcare and agriculture under Dr. Farhad Hossain at BUET.
+- *Nelsite Inc. Ltd.*, /Fukuoka, Japan/ \n
+*Semiconductor Engineer* (November 2019 – April 2020)
+-- Developed embedded systems with 32-bit ARM Cortex-M4 microcontrollers, Keil, and embedded C.
+-- Received on-the-job training in semiconductor fabrication and material characterization.
+
+== Research Interests
+GPU architecture and verification, high-performance computing, performance modeling and bottleneck analysis, machine learning, and embedded IoT systems.
+
+== Technical Skills
+- *Languages:* CUDA, OpenCL, Python, Embedded C/C\+\+, VHDL, SystemVerilog, Go, Lex, Yacc, LaTeX.
+- *Software and tools:* Verdi, UVM, NumPy, Pandas, TensorFlow, Keras, scikit-learn, Linux, Eagle, Proteus, Quartus II, Cadence, OpenCV.
+
+== Selected Coursework
+- *Computer engineering:* Advanced Computer Architecture, Application of Parallel Programming, ASIC Design, Hardware and Software Co-design, Compiler Transition, Computer Architecture, VLSI, Microprocessor and Interfacing, Analog and Digital Electronics.
+- *Artificial intelligence:* Application of Machine Learning, Deep Learning, Random Signal Analysis, Linear Algebra, Probability and Statistics.
+
+== Awards
+- *Battle of Hardware (IoT) — Champion*, CSE Festival 2018, BUET.
+- *CISCO Bangladesh IoT Hackathon — Honorable Mention*, 2018.

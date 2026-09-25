@@ -1,0 +1,96 @@
+{
+  "name": "Nazmul Haque Turja",
+  "short_name": "Nazmul H. Turja",
+  "role": "PhD student · Electrical & Computer Engineering",
+  "institution": "University of Delaware",
+  "email": "nh.turja@gmail.com",
+  "location": "Newark, Delaware, USA",
+  "intro": "Hardware security, from design to verification.",
+  "bio": "My PhD research in Electrical and Computer Engineering focuses on hardware security. I bring experience in GPU logic design and pre-silicon verification at Intel, alongside prior research in computer architecture and performance modeling.",
+  "now": "Developing my PhD research in hardware security and working on RTL Medic: hardware design and verification using LLMs and AI agents. I will join the ECE Department at the University of Delaware as a Graduate Research Assistant on October 1, 2026.",
+  "cv": "pdf/Nazmul_Turja_CV_2026.pdf",
+  "updated": "September 2026",
+  "socials": [
+    {
+      "label": "Email",
+      "url": "mailto:nh.turja@gmail.com"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=E74ZlZAAAAAJ"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/nh-turja"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nh-turja/"
+    }
+  ],
+  "research": [
+    {
+      "id": "hardware-security",
+      "title": "Hardware security",
+      "summary": "The focus of my PhD: understanding and improving the security of hardware systems.",
+      "body": "My PhD in Electrical and Computer Engineering at the University of Delaware focuses on hardware security. I am developing this research direction with a foundation in hardware design, pre-silicon verification, and computer architecture.",
+      "links": [
+        {
+          "label": "Get in touch",
+          "url": "contact.html"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": "Hardware design & verification",
+      "summary": "Exploring LLMs and AI agents for hardware design and verification through RTL Medic.",
+      "body": "RTL Medic is our ongoing research on hardware design and verification using LLMs and AI agents. My prior work at Intel covered pre-silicon verification of GPUs, including Xe-Core ray tracing and texture sampling features, UVM-based validation, coverage closure, and regression debugging.",
+      "links": [
+        {
+          "label": "RTL Medic · ongoing",
+          "url": "projects.html#rtl-medic"
+        },
+        {
+          "label": "Industry experience",
+          "url": "cv.html#experience"
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "title": "Architecture & performance",
+      "summary": "Prior work in GPU performance prediction and CPU bottleneck analysis informs my hardware research.",
+      "body": "My research includes machine learning for GPU basic block execution counts, reuse-distance and memory tracing tools for PPT-GPU, and CPI breakdown analysis for IBM Power9. This work draws on collaborations with Los Alamos National Laboratory and Sandia National Laboratories.",
+      "links": [
+        {
+          "label": "BB-ML",
+          "url": "projects.html#bb-ml"
+        },
+        {
+          "label": "Power9 analysis",
+          "url": "projects.html#power9"
+        }
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "Embedded & connected systems",
+      "summary": "Building practical systems that connect software, sensors, and hardware.",
+      "body": "My earlier work explored secure IoT automation, embedded systems, and digital design. Projects include MQTT-based offline automation, a cache simulator, and a simulated 8-bit computer.",
+      "links": [
+        {
+          "label": "Engineering projects",
+          "url": "projects.html#engineering"
+        },
+        {
+          "label": "IoT systems",
+          "url": "projects.html#iot"
+        }
+      ],
+      "featured": false
+    }
+  ],
+  "focus": "Hardware security",
+  "tagline": "Hardware security · Design · Verification"
+}

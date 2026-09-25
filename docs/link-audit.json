@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2202.07798v3",
+    "status": "200",
+    "destination": "https://arxiv.org/abs/2202.07798v3",
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.07798v3",
+    "status": "200",
+    "destination": "https://arxiv.org/pdf/2202.07798v3",
+    "error": ""
+  },
+  {
+    "url": "https://drive.google.com/file/d/1JHx_pnAfwS_Z2fhqH8l5Ph6NiEAG8fpE/view",
+    "status": "200",
+    "destination": "https://drive.google.com/file/d/1JHx_pnAfwS_Z2fhqH8l5Ph6NiEAG8fpE/view",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/lanl/PPT",
+    "status": "200",
+    "destination": "https://github.com/lanl/PPT",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/nh-turja",
+    "status": "200",
+    "destination": "https://github.com/nh-turja",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/nh-turja/Arduino_RaspberryPi_projects",
+    "status": "200",
+    "destination": "https://github.com/nh-turja/Arduino_RaspberryPi_projects",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/nh-turja/CS-466-NMSU-Compiler-Transition",
+    "status": "200",
+    "destination": "https://github.com/nh-turja/CS-466-NMSU-Compiler-Transition",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/nh-turja/asmd_diagram_hw_sw_co_design_project",
+    "status": "200",
+    "destination": "https://github.com/nh-turja/asmd_diagram_hw_sw_co_design_project",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/nh-turja/cache-simulator",
+    "status": "200",
+    "destination": "https://github.com/nh-turja/cache-simulator",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/nh-turja/internet-of-things",
+    "status": "200",
+    "destination": "https://github.com/nh-turja/internet-of-things",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/nh-turja/simple-as-possible-computer",
+    "status": "200",
+    "destination": "https://github.com/nh-turja/simple-as-possible-computer",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/ovis-hpc/ldms",
+    "status": "200",
+    "destination": "https://github.com/ovis-hpc/ldms",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=E74ZlZAAAAAJ",
+    "status": "200",
+    "destination": "https://scholar.google.com/citations?user=E74ZlZAAAAAJ",
+    "error": ""
+  },
+  {
+    "url": "https://www.linkedin.com/in/nh-turja/",
+    "status": "999",
+    "destination": "https://www.linkedin.com/in/nh-turja/",
+    "error": ""
+  }
+]

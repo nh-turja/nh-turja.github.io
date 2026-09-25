@@ -1,0 +1,225 @@
+[
+  {
+    "id": "rtl-medic",
+    "title": "RTL Medic",
+    "category": "ongoing",
+    "status": "Ongoing",
+    "summary": "Research on hardware design and verification using LLMs and AI agents.",
+    "problem": "",
+    "contribution": "",
+    "methods": "",
+    "result": "Ongoing collaborative research.",
+    "links": []
+  },
+  {
+    "id": "power9",
+    "title": "Understanding Power9 performance",
+    "category": "research",
+    "status": "Master’s project",
+    "summary": "CPI breakdown analysis for a clearer view of CPU bottlenecks.",
+    "problem": "Identify where execution time is spent on IBM Power9.",
+    "contribution": "Focused my master’s project on an LDMS-Sampler analysis framework.",
+    "methods": "CPI breakdown, LDMS sampling, IBM Power9.",
+    "result": "Completed a master’s project at NMSU in May 2023 describing the analysis framework.",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "https://drive.google.com/file/d/1JHx_pnAfwS_Z2fhqH8l5Ph6NiEAG8fpE/view"
+      },
+      {
+        "label": "LDMS framework",
+        "url": "https://github.com/ovis-hpc/ldms"
+      }
+    ]
+  },
+  {
+    "id": "bb-ml",
+    "title": "BB-ML: predicting GPU execution",
+    "category": "research",
+    "status": "Published",
+    "summary": "Machine learning for basic block execution counts.",
+    "problem": "Estimate execution counts for large inputs without profiling every configuration.",
+    "contribution": "Contributed to basic block count prediction using NVBit-supported PPT-GPU.",
+    "methods": "GPU instrumentation, machine learning, benchmark workloads.",
+    "result": "Co-authored BB-ML, accepted at ICPADS 2023. The paper evaluates prediction across 16 GPU benchmarks.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2202.07798v3"
+      },
+      {
+        "label": "PPT framework",
+        "url": "https://github.com/lanl/PPT"
+      }
+    ]
+  },
+  {
+    "id": "ppt-gpu",
+    "title": "GPU tracing for PPT-GPU",
+    "category": "research",
+    "status": "Research contribution",
+    "summary": "Tracing tools for GPU performance modeling.",
+    "problem": "Collect execution and memory behavior to support GPU performance prediction.",
+    "contribution": "Collaborated with Los Alamos National Laboratory on reuse-distance and memory-tracing toolkits.",
+    "methods": "NVBit, GPU traces, reuse-distance analysis.",
+    "result": "Contributed tool development for PPT-GPU.",
+    "links": [
+      {
+        "label": "PPT framework",
+        "url": "https://github.com/lanl/PPT"
+      }
+    ]
+  },
+  {
+    "id": "asmd",
+    "title": "Hardware validation with ASMD",
+    "category": "engineering",
+    "status": "Course project",
+    "summary": "State-machine reasoning for hardware verification.",
+    "problem": "Check hardware behavior against its intended control and data paths.",
+    "contribution": "Debugged and verified hardware using an Algorithmic State Machine with Data Path diagram.",
+    "methods": "ASMD diagrams, hardware/software co-design.",
+    "result": "Completed a hardware design-validation project.",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/nh-turja/asmd_diagram_hw_sw_co_design_project"
+      }
+    ]
+  },
+  {
+    "id": "cache",
+    "title": "Cache memory simulator",
+    "category": "engineering",
+    "status": "Course project",
+    "summary": "A C++ simulator for exploring cache organizations.",
+    "problem": "Model memory accesses across different cache configurations.",
+    "contribution": "Implemented programs for direct-mapped and set-associative caches.",
+    "methods": "C++, cache simulation.",
+    "result": "Built a configurable cache simulation implementation.",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/nh-turja/cache-simulator"
+      }
+    ]
+  },
+  {
+    "id": "mips",
+    "title": "MIPS compiler project",
+    "category": "engineering",
+    "status": "Course project",
+    "summary": "Exploring compilation with abstract syntax trees.",
+    "problem": "Translate program structure into a MIPS implementation.",
+    "contribution": "Created a MIPS implementation using an abstract syntax tree for Compiler Transition.",
+    "methods": "Abstract syntax trees, MIPS.",
+    "result": "Completed the course implementation.",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/nh-turja/CS-466-NMSU-Compiler-Transition"
+      }
+    ]
+  },
+  {
+    "id": "sap",
+    "title": "An 8-bit computer",
+    "category": "engineering",
+    "status": "Course project",
+    "summary": "A Simple As Possible computer simulated in Proteus.",
+    "problem": "Explore the organization of a small, complete computer.",
+    "contribution": "Designed an 8-bit microcomputer with 64 KB of main-memory support.",
+    "methods": "Digital logic, Proteus simulation.",
+    "result": "Designed and simulated the computer.",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/nh-turja/simple-as-possible-computer"
+      }
+    ]
+  },
+  {
+    "id": "shift-register",
+    "title": "General-purpose shift register",
+    "category": "engineering",
+    "status": "Course project",
+    "summary": "A small digital design with multiple data-movement modes.",
+    "problem": "Support left shift, right shift, and parallel loading.",
+    "contribution": "Designed a general-purpose 4-bit shift register.",
+    "methods": "Digital logic, register design.",
+    "result": "Produced the register design with the three operating modes.",
+    "links": []
+  },
+  {
+    "id": "mqtt",
+    "title": "Secure offline IoT automation",
+    "category": "iot",
+    "status": "Published",
+    "summary": "Local monitoring and control when internet connectivity is unavailable.",
+    "problem": "Keep appliance monitoring and control available during internet outages.",
+    "contribution": "Worked with Team Hawkbit on desktop software and a sensor network; presented the paper at WiSPNET 2019.",
+    "methods": "MQTT, Python, sensor networks, a shared control dashboard.",
+    "result": "Built and demonstrated a supershop automation system with BUET and ACI Logistics; published the resulting paper.",
+    "links": [
+      {
+        "label": "Paper (PDF)",
+        "url": "pdf/hasan2019.pdf"
+      },
+      {
+        "label": "Code collection",
+        "url": "https://github.com/nh-turja/internet-of-things"
+      }
+    ]
+  },
+  {
+    "id": "smart-home",
+    "title": "Connected home automation",
+    "category": "iot",
+    "status": "Competition project",
+    "summary": "An app to control lights, fans, and their operating levels.",
+    "problem": "Remotely control light brightness and fan speed.",
+    "contribution": "Worked with Team Hawkbit on the Android interface and connected hardware.",
+    "methods": "MIT App Inventor, Google Firebase, IoT.",
+    "result": "Won Battle of Hardware (IoT) at BUET CSE Festival 2018.",
+    "links": [
+      {
+        "label": "Code collection",
+        "url": "https://github.com/nh-turja/internet-of-things"
+      }
+    ]
+  },
+  {
+    "id": "waste",
+    "title": "Smart waste monitoring",
+    "category": "iot",
+    "status": "Hackathon project",
+    "summary": "Connected bins that notify collectors when service is needed.",
+    "problem": "Communicate bin status and collection needs.",
+    "contribution": "Worked with Team Hawkbit on cloud-connected bin monitoring and SMS alerts.",
+    "methods": "IoT sensors, cloud data, SIM808 GSM messaging.",
+    "result": "Built the hackathon prototype; received an honorable mention at CISCO Bangladesh’s 2018 IoT hackathon.",
+    "links": [
+      {
+        "label": "Code collection",
+        "url": "https://github.com/nh-turja/internet-of-things"
+      }
+    ]
+  },
+  {
+    "id": "wearable",
+    "title": "Indoor wayfinding wearable",
+    "category": "iot",
+    "status": "Prototype",
+    "summary": "A wearable project for people with Alzheimer’s disease.",
+    "problem": "Support finding a path inside a house.",
+    "contribution": "Built a wearable device for indoor wayfinding.",
+    "methods": "Embedded wearable system.",
+    "result": "Built a wearable prototype.",
+    "links": [
+      {
+        "label": "Code collection",
+        "url": "https://github.com/nh-turja/Arduino_RaspberryPi_projects"
+      }
+    ]
+  }
+]

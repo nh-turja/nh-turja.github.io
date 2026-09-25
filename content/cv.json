@@ -1,0 +1,129 @@
+{
+  "education": [
+    {
+      "title": "PhD in Electrical and Computer Engineering",
+      "organization": "University of Delaware",
+      "location": "Newark, Delaware",
+      "period": "August 2026 – Present",
+      "bullets": [],
+      "text": "Research focus: Hardware security."
+    },
+    {
+      "title": "MS in Electrical Engineering",
+      "organization": "New Mexico State University",
+      "location": "Las Cruces, New Mexico",
+      "period": "August 2021 – May 2023",
+      "text": "Master’s project: Utilizing CPI Breakdown for Bottleneck Analysis of Power9 Processor Performance",
+      "bullets": []
+    },
+    {
+      "title": "BS in Electrical and Electronic Engineering",
+      "organization": "Bangladesh University of Engineering and Technology",
+      "location": "Dhaka, Bangladesh",
+      "period": "July 2014 – April 2019",
+      "text": "Major: Communication Engineering. Thesis: A Secured Offline Online Approach for Internet of Things (IoT) Using Real-time Database.",
+      "bullets": []
+    }
+  ],
+  "experience": [
+    {
+      "title": "Graduate Research Assistant",
+      "organization": "University of Delaware · Department of ECE",
+      "location": "Newark, Delaware",
+      "period": "Upcoming · starts October 1, 2026",
+      "bullets": []
+    },
+    {
+      "bullets": [
+        "Conducted functional pre-silicon verification for discrete, integrated, and HPC GPUs, focusing on 3D render and compute pipelines.",
+        "Owned end-to-end validation of Intel Xe-Core ray tracing and texture sampling features, including test planning, test development, and coverage closure.",
+        "Used UVM methodologies and debugged regression failures in simulation and emulation, collaborating with design and architecture teams."
+      ],
+      "title": "GPU Logic Design Engineer",
+      "organization": "Intel Corporation",
+      "location": "Folsom, California",
+      "period": "July 2023 – September 2026"
+    },
+    {
+      "bullets": [
+        "Instructed Communication Systems I (ET 314) theory and lab sessions and mentored students on assignments and projects."
+      ],
+      "title": "Graduate Assistant",
+      "organization": "New Mexico State University · Department of ET and SE",
+      "location": "Las Cruces, New Mexico",
+      "period": "January 2023 – May 2023"
+    },
+    {
+      "bullets": [
+        "Addressed power flow analysis (ptpx) issues for low-power Intel Xe-Core Sampler designs.",
+        "Managed regressions for the Meteor Lake Sampler CLT out-of-order feature and identified two silicon hangs.",
+        "Developed UVM testbenches and worked with gnr, elab, and runsim tools."
+      ],
+      "title": "Graduate Technical Intern",
+      "organization": "Intel Corporation",
+      "location": "Folsom, California",
+      "period": "May 2022 – December 2022"
+    },
+    {
+      "bullets": [
+        "Applied machine learning to basic block count prediction with NVBit-supported PPT-GPU for PolyBench, Rodinia, Pannotia, and LULESH workloads.",
+        "Collaborated with Los Alamos National Laboratory on reuse distance and memory tracing toolkits for PPT-GPU, and with Sandia National Laboratories on LDMS sampling for IBM Power9.",
+        "Taught electronics, digital circuit design, and VHDL to more than 50 students."
+      ],
+      "title": "Graduate Research and Teaching Assistant",
+      "organization": "New Mexico State University · Department of ECE",
+      "location": "Las Cruces, New Mexico",
+      "period": "August 2021 – May 2022"
+    },
+    {
+      "bullets": [
+        "Taught VLSI Design (CSE 460) and Digital Electronics and Pulse Techniques (CSE 350), including labs with Proteus, Quartus II, Microwind, and ModelSim.",
+        "Worked on IoT applications for healthcare and agriculture under Dr. Farhad Hossain at BUET."
+      ],
+      "title": "Adjunct Faculty",
+      "organization": "BRAC University · Department of CSE",
+      "location": "Dhaka, Bangladesh",
+      "period": "February 2021 – September 2021"
+    },
+    {
+      "bullets": [
+        "Developed embedded systems with 32-bit ARM Cortex-M4 microcontrollers, Keil, and embedded C.",
+        "Received on-the-job training in semiconductor fabrication and material characterization."
+      ],
+      "title": "Semiconductor Engineer",
+      "organization": "Nelsite Inc. Ltd.",
+      "location": "Fukuoka, Japan",
+      "period": "November 2019 – April 2020"
+    }
+  ],
+  "technical_skills": [
+    {
+      "text": "Languages: CUDA, OpenCL, Python, Embedded C/C++, VHDL, SystemVerilog, Go, Lex, Yacc, LaTeX.",
+      "bullets": []
+    },
+    {
+      "text": "Software and tools: Verdi, UVM, NumPy, Pandas, TensorFlow, Keras, scikit-learn, Linux, Eagle, Proteus, Quartus II, Cadence, OpenCV.",
+      "bullets": []
+    }
+  ],
+  "selected_coursework": [
+    {
+      "text": "Computer engineering: Advanced Computer Architecture, Application of Parallel Programming, ASIC Design, Hardware and Software Co-design, Compiler Transition, Computer Architecture, VLSI, Microprocessor and Interfacing, Analog and Digital Electronics.",
+      "bullets": []
+    },
+    {
+      "text": "Artificial intelligence: Application of Machine Learning, Deep Learning, Random Signal Analysis, Linear Algebra, Probability and Statistics.",
+      "bullets": []
+    }
+  ],
+  "awards": [
+    {
+      "text": "Battle of Hardware (IoT) — Champion, CSE Festival 2018, BUET.",
+      "bullets": []
+    },
+    {
+      "text": "CISCO Bangladesh IoT Hackathon — Honorable Mention, 2018.",
+      "bullets": []
+    }
+  ]
+}
