@@ -3,7 +3,7 @@
   "short_name": "Nazmul H. Turja",
   "role": "PhD student · Electrical & Computer Engineering",
   "institution": "University of Delaware",
-  "email": "nh.turja@gmail.com",
+  "email": "nhturja@udel.edu",
   "location": "Newark, Delaware, USA",
   "intro": "Hardware security, from design to verification.",
   "bio": "My PhD research in Electrical and Computer Engineering focuses on hardware security. I bring experience in GPU logic design and pre-silicon verification at Intel, alongside prior research in computer architecture and performance modeling.",
@@ -13,7 +13,7 @@
   "socials": [
     {
       "label": "Email",
-      "url": "mailto:nh.turja@gmail.com"
+      "url": "mailto:nhturja@udel.edu"
     },
     {
       "label": "Google Scholar",

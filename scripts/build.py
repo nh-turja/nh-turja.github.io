@@ -89,7 +89,7 @@ home = f'''<section class="hero" aria-labelledby="intro-title"><div>
     {links(P['socials'])}<div class="link-row hero-actions">{anchor('Explore my research →','research.html',' class="button"')}{anchor('Download CV (PDF)',P['cv'])}</div>
     </div><aside class="hero-aside" aria-label="Affiliation">
     <img class="portrait" src="assets/portrait.jpg" width="320" height="433" alt="Portrait of Nazmul Haque Turja" fetchpriority="high">
-    <div class="affiliation"><strong>{e(P['institution'])}</strong><span class="muted">Electrical &amp; Computer Engineering</span><p class="muted">Previously at Intel<br>GPU Logic Design</p></div></aside></section>
+    <div class="affiliation"><strong>{e(P['institution'])}</strong><span class="muted">Electrical &amp; Computer Engineering</span></div></aside></section>
     <aside class="now" aria-label="Current work"><p class="eyebrow">Currently</p><p>{e(P['now'])}</p>{anchor('RTL Medic →','projects.html#rtl-medic')}</aside>
     <section class="section" aria-label="Research areas">{section_heading('Research areas','Research overview','research.html')}<div class="research-grid">{research_cards}</div></section>
     <section class="section" aria-label="Selected publications">{section_heading('Selected publications','All publications','publications.html')}<div>{''.join(publication(p) for p in PUBS if p.get('featured'))}</div></section>
@@ -140,7 +140,7 @@ for key,label in cvsections:
 cv += '</div></div>'
 page('cv.html','CV','Education, experience, technical skills, and awards. Download the September 2026 CV.',cv)
 
-contact = heading('Contact','Let’s connect.','For conversations about hardware security, hardware design, or verification research, email is the best way to reach me.')
+contact = heading('Contact','Let’s connect.','I’m always open to conversations about hardware security, hardware design, and verification research using LLMs and agentic AI. Feel free to email me.')
 contact += f'''<div class="contact-grid"><section><p class="eyebrow">Email</p>{anchor(P['email'],'mailto:'+P['email'],' class="email-link"')}<p class="muted" style="margin-top:1.5rem">{e(P['location'])}</p><p class="small">{e(P['role'])}<br>{e(P['institution'])}</p></section>
     <section><h2>Elsewhere</h2><ul class="contact-list">{''.join('<li>'+anchor(s['label']+' ↗',s['url'])+'</li>' for s in P['socials'] if s['label']!='Email')}</ul>{anchor('View my CV →','cv.html',' class="text-link"')}</section></div>'''
 page('contact.html','Contact','Contact Nazmul Haque Turja by email, GitHub, Google Scholar, or LinkedIn.',contact)
