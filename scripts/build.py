@@ -84,7 +84,7 @@ updates = ''.join(f'<li><time datetime="{e(u["date"])}">{e(u["display_date"])}</
                   (anchor(u['link']['label']+' →',u['link']['url']) if u.get('link') else '') + '</p></li>' for u in UPDATES[:4])
 home = f'''<section class="hero" aria-labelledby="intro-title"><div>
     <p class="eyebrow">{e(P['focus'])} · PhD research</p><h1 id="intro-title">{e(P['name'])}</h1>
-    <p class="hero-affiliation">PhD student at the {e(P['institution'])}</p>
+    <p class="hero-affiliation">{e(P['affiliation'])}</p>
     <p class="intro">{e(P['intro'])}</p><p class="bio">{e(P['bio'])}</p>
     {links(P['socials'])}<div class="link-row hero-actions">{anchor('Explore my research →','research.html',' class="button"')}{anchor('Download CV (PDF)',P['cv'])}</div>
     </div><aside class="hero-aside" aria-label="Affiliation">
@@ -94,7 +94,7 @@ home = f'''<section class="hero" aria-labelledby="intro-title"><div>
     <section class="section" aria-label="Research areas">{section_heading('Research areas','Research overview','research.html')}<div class="research-grid">{research_cards}</div></section>
     <section class="section" aria-label="Selected publications">{section_heading('Selected publications','All publications','publications.html')}<div>{''.join(publication(p) for p in PUBS if p.get('featured'))}</div></section>
     <section class="section" aria-labelledby="updates-title"><h2 id="updates-title">Recent updates</h2><ul class="updates">{updates}</ul></section>'''
-page('index.html',P['name'],f"PhD student at the {P['institution']}. {P['bio']}",home)
+page('index.html',P['name'],f"{P['affiliation']}. {P['bio']}",home)
 
 research = heading('Research','Hardware security & verification.','My PhD at the University of Delaware focuses on hardware security, informed by experience in hardware verification and computer architecture.')
 for i,r in enumerate(P['research'],1):
@@ -116,7 +116,7 @@ for key,label in categories:
 page('projects.html','Projects','Research and engineering projects, including AI-assisted hardware design and verification, GPU performance modeling, and IoT systems.',projects)
 
 cvsections=[('education','Education'),('experience','Experience'),('technical_skills','Technical skills'),('selected_coursework','Selected coursework'),('awards','Awards'),('publications','Publications'),('projects','Selected projects')]
-cv_download = '<div class="link-row">' + anchor('Download CV · September 2026 (PDF)', P['cv'], ' class="button"') + '</div>'
+cv_download = '<div class="link-row">' + anchor(f"Download CV · {P['cv_updated']} (PDF)", P['cv'], ' class="button"') + '</div>'
 cv = heading('Curriculum vitae','Education & experience.','PhD research in hardware security at the University of Delaware, building on experience in GPU verification and computer architecture.',cv_download)
 cv += '<div class="print-heading"><h1>' + e(P['name']) + '</h1><p>' + e(P['email']) + ' · ' + e(P['location']) + '</p></div>'
 cv += '<div class="cv-layout"><nav class="cv-nav" aria-label="CV sections">'+''.join(anchor(label,'#'+key) for key,label in cvsections)+'</nav><div>'
@@ -138,7 +138,7 @@ for key,label in cvsections:
         cv += '</div>'
     cv += '</section>'
 cv += '</div></div>'
-page('cv.html','CV','Education, experience, technical skills, and awards. Download the September 2026 CV.',cv)
+page('cv.html','CV',f"Education, experience, technical skills, and awards. Download the {P['cv_updated']} CV.",cv)
 
 contact = heading('Contact','Let’s connect.','I’m always open to conversations about hardware security, hardware design, and verification research using LLMs and agentic AI. Feel free to email me.')
 contact += f'''<div class="contact-grid"><section><p class="eyebrow">Email</p>{anchor(P['email'],'mailto:'+P['email'],' class="email-link"')}<p class="muted" style="margin-top:1.5rem">{e(P['location'])}</p><p class="small">{e(P['role'])}<br>{e(P['institution'])}</p></section>

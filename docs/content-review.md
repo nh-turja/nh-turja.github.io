@@ -1,11 +1,11 @@
-# Content review — September 25, 2026
+# Content review — October 14, 2026
 
 ## Updated from the owner's clarifications
 
 - Current affiliation: Electrical and Computer Engineering, University of Delaware.
 - Location: Newark, Delaware, USA.
-- Graduate Research Assistant appointment begins **October 1, 2026**. This is
-  labeled **upcoming** as of the review date, not an already-held role.
+- Current Graduate Research Assistant appointment began **October 1, 2026**
+  in the Department of ECE. Advisor: **Prof. Satwik Patnaik**.
 - AI-assisted hardware design and verification is ongoing research using LLMs
   and AI agents. The owner requested a brief description, so methods, personal
   implementation claims, and results are deliberately not invented.
@@ -47,8 +47,8 @@
 - Old template pages about another person's Arkansas teaching now redirect to
   the current portfolio. Lecture PDFs retain their existing URLs.
 - Original CV is preserved as the source snapshot; current CV download is a new
-  PDF generated from the updated website CV, including Delaware and the upcoming
-  appointment. Regenerate it when CV data changes.
+  PDF generated from the updated website CV, including Delaware, the current
+  appointment, and the advisor. Regenerate it when CV data changes.
 
 ## Link audit
 

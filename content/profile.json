@@ -1,15 +1,17 @@
 {
   "name": "Nazmul Haque Turja",
   "short_name": "Nazmul H. Turja",
-  "role": "PhD student · Electrical & Computer Engineering",
+  "role": "Graduate Research Assistant · Department of ECE",
+  "affiliation": "PhD student and Graduate Research Assistant at the University of Delaware",
   "institution": "University of Delaware",
   "email": "nhturja@udel.edu",
   "location": "Newark, Delaware, USA",
   "intro": "Hardware security, from design to verification.",
-  "bio": "My PhD research in Electrical and Computer Engineering focuses on hardware security. I bring experience in GPU logic design and pre-silicon verification at Intel, alongside prior research in computer architecture and performance modeling.",
-  "now": "Developing my PhD research in hardware security and exploring hardware design and verification using LLMs and AI agents. I will join the ECE Department at the University of Delaware as a Graduate Research Assistant on October 1, 2026.",
+  "bio": "My PhD research in Electrical and Computer Engineering focuses on hardware security, advised by Prof. Satwik Patnaik. I bring experience in GPU logic design and pre-silicon verification at Intel, alongside prior research in computer architecture and performance modeling.",
+  "now": "I am a Graduate Research Assistant in the Department of ECE at the University of Delaware, where I joined on October 1, 2026. I work with my advisor, Prof. Satwik Patnaik, on hardware security and explore hardware design and verification using LLMs and AI agents.",
   "cv": "pdf/Nazmul_Turja_CV_2026.pdf",
-  "updated": "September 2026",
+  "updated": "October 2026",
+  "cv_updated": "October 2026",
   "socials": [
     {
       "label": "Email",
@@ -33,7 +35,7 @@
       "id": "hardware-security",
       "title": "Hardware security",
       "summary": "The focus of my PhD: understanding and improving the security of hardware systems.",
-      "body": "My PhD in Electrical and Computer Engineering at the University of Delaware focuses on hardware security. I am developing this research direction with a foundation in hardware design, pre-silicon verification, and computer architecture.",
+      "body": "My PhD in Electrical and Computer Engineering at the University of Delaware focuses on hardware security under the guidance of Prof. Satwik Patnaik. I am a Graduate Research Assistant in the Department of ECE, building on a foundation in hardware design, pre-silicon verification, and computer architecture.",
       "links": [
         {
           "label": "Get in touch",
